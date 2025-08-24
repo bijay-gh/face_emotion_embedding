@@ -10,6 +10,7 @@ This repository provides PyTorch implementations for training Swin Transformer-b
 - **Configurable Datasets**: Easily switch between FER2013, RAF_DB Single Emotion, and RAF_DB Multi Emotion via `config.yaml`.
 - **Training & Evaluation**: Includes functions for training, validation, and test evaluation (accuracy & F1 score).
 - **Best Model Saving**: Automatically saves the best model based on validation accuracy.
+- **Real-time Emotion Detection App**: `app.py` provides a Streamlit-based web app for real-time emotion detection from webcam video, overlaying emoji based on detected emotion.
 
 ## Folder Structure
 
@@ -18,6 +19,7 @@ face_emotion_embedding/
 │
 ├── train_swin.py         # Main training script
 ├── model.py              # Model definitions and training/evaluation functions
+├── app.py                # Streamlit app for real-time emotion detection
 ├── config.yaml           # Dataset paths and hyperparameters
 ├── output/               # Saved best model
 └── README.md             # Project documentation
@@ -28,7 +30,7 @@ face_emotion_embedding/
 1. **Clone the repository**
 2. **Install dependencies**
     ```bash
-    pip install torch torchvision torch-optimizer scikit-learn pyyaml
+    pip install torch torchvision torch-optimizer scikit-learn pyyaml streamlit streamlit-webrtc mediapipe
     ```
 
 3. **Prepare your datasets**
@@ -45,6 +47,15 @@ Run the training script:
 ```bash
 python train_swin.py
 ```
+
+### Real-time Emotion Detection App
+
+Run the Streamlit app:
+```bash
+streamlit run app.py
+```
+- The app uses your webcam to detect faces and predict emotions in real time.
+- Detected emotions are visualized with corresponding emoji overlays.
 
 ### Configuration
 
