@@ -1,0 +1,15 @@
+dataset:
+  FER2013:
+    train: E:\Projects\Emotion_Classification\Dataset\FER2013\train
+    test: E:\Projects\Emotion_Classification\Dataset\FER2013\test
+  RAF_DB:
+    Single_Emotion:
+      train: E:\Projects\Emotion_Classification\Dataset\RAF_DB\Single_Emotion\train
+      test: E:\Projects\Emotion_Classification\Dataset\RAF_DB\Single_Emotion\test
+    Multi_Emotion:
+      train: E:\Projects\Emotion_Classification\Dataset\RAF_DB\Multi_Emotion\train
+      test: E:\Projects\Emotion_Classification\Dataset\RAF_DB\Multi_Emotion\test
+
+lr: 0.001
+batch_size: 64
+num_epochs: 25
