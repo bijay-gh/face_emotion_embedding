@@ -83,7 +83,7 @@ After training, the best model is saved in the `output` folder. The script print
 If you use this code, please cite as  
 G. K. Mishra and B. Ghimire, "Typing with emotions: Emotion Embedding in text apps," TechRxiv, Aug. 2, 2025. DOI: 10.36227/techrxiv.175416003.30236370/v1
 
-For the concept, please cite the original Swin Transformer and
+For the concept, please cite the original Swin Transformer and SAM papers.
 
 ## License
 
