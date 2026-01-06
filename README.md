@@ -90,10 +90,18 @@ To use SAM optimizer, ensure `torch-optimizer` is installed and use the provided
 After training, the best model is saved in the `output` folder. The script prints test accuracy and F1 score.
 
 ## Citation
+```bibtex
+@article{mishra2025typing,
+  title   = {Typing with emotions: Emotion Embedding in text apps},
+  author  = {Mishra, Gunjan Kumar and Ghimire, Bijaya},
+  journal = {TechRxiv},
+  year    = {2025},
+  month   = {August},
+  doi     = {10.36227/techrxiv},
+  note    = {Preprint}
+}
 
-If you use this code, please cite as  
-G. K. Mishra and B. Ghimire, "Typing with emotions: Emotion Embedding in text apps," TechRxiv, Aug. 2, 2025. DOI: 10.36227/techrxiv.175416003.30236370/v1
-
+```
 For the concept, please cite the original Swin Transformer and SAM papers.
 
 ## License
